@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.ec-title {
+  color: rgb(31, 26, 60);
+  font-weight: bold;
+}
+
+.ec-color-coral {
+  color: coral;
+}
+
+.ec-btn-motion {
+  border: none;
+  outline: none;
+}
+
+.ec-active-tab {
+  font-weight: bold;
+}
+
+.ec-tab-wrapper h6 {
+  cursor: pointer;
+}
+
+input {
+  outline: none !important;
+}
+
+.ec-table-cart tr {
+  vertical-align: middle;
+}
+
+.ec-img-cart-product {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.ec-cart-checkout {
+  background: rgb(31, 26, 60);
+  border-radius: 6px;
+  padding: 25px 30px;
+}
+.ec-cart-checkout h6, .ec-cart-checkout h5 {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.ec-cart-checkout h6 {
+  margin-bottom: 15px;
+}
+.ec-cart-checkout h5 {
+  border-top: 1px solid #fff;
+  padding-top: 15px;
+  margin-top: 35px;
+}
+
+.ec-btn-white {
+  background: #fff !important;
+  color: rgb(31, 26, 60) !important;
+}
+
+.ec-login-form {
+  background: rgb(31, 26, 60);
+  border-radius: 6px;
+  padding: 45px 45px 40px;
+}
+
+.bg1 {
+  background: #fdefe6;
+}
+
+.bg2 {
+  background: #ceebe9;
+}
+
+.bg3 {
+  background: #e2f2b2;
+}
+
+.bg4 {
+  background: #d6e5fb;
+}
+
+.ec-logo {
+  display: flex;
+}
+.ec-logo .logo {
+  width: 25px;
+  object-fit: contain;
+}
+
+.ec-nav-icons {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.ec-with-badge {
+  position: relative;
+}
+.ec-with-badge span {
+  position: absolute;
+  background: rgb(31, 26, 60);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  top: -2px;
+  right: -4px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.navbar {
+  transition: background-color 0.5s;
+}
+
+.ec-header-sticky {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+}
+.ec-header-sticky .navbar {
+  transition: background-color 0.5s;
+  background-color: #fdefe6 !important;
+}
+
+.ec-img-profil {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+footer {
+  background: rgb(31, 26, 60);
+  padding: 60px 0 20px;
+  color: #cbcbcb;
+  margin-top: 90px;
+}
+
+.list-group li {
+  background-color: transparent;
+  color: #cbcbcb;
+}
+.list-group li a {
+  color: #cbcbcb;
+}
+
+.ec-section-common {
+  background: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)), url("../images/bedroom.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ec-section-common h1 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.ec-banner {
+  background: rgb(219, 231, 255);
+  padding: 60px 0;
+}
+.ec-banner h2 {
+  font-size: 36px;
+  margin-bottom: 35px;
+}
+
+.ec-btn {
+  border: none;
+  outline: none;
+  background: rgb(31, 26, 60);
+  padding: 0;
+  color: #fff;
+}
+.ec-btn a {
+  padding: 6px 15px;
+  color: #fff;
+  display: inline-block;
+}
+
+.ec-btn-store {
+  background: #fff;
+}
+.ec-btn-store a {
+  color: rgb(31, 26, 60);
+}
+
+a {
+  text-decoration: none;
+}
+
+.ec-services-item {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+.ec-services-item span {
+  flex: 0 0 auto;
+  width: 45px;
+  height: 45px;
+  background: rgb(31, 26, 60);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.ec-mt-100 {
+  margin-top: 100px;
+}
+
+.ec-product-item {
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.ec-product-item img {
+  transition: all 0.25s;
+}
+.ec-product-item:hover img {
+  transform: scale(0.9);
+}
+
+.ec-product-name a {
+  color: rgb(31, 26, 60);
+}
+
+.ec-counter {
+  background: rgb(31, 26, 60);
+}
+
+.ec-filter-widget select {
+  padding: 8px 20px;
+  border: 1px solid rgb(31, 26, 60);
+  cursor: pointer;
+  background: rgb(31, 26, 60);
+  color: #fff;
+  border-radius: 5px;
+}
+.ec-filter-widget select:focus {
+  outline: none;
+}
+.ec-filter-widget select option {
+  font-size: 0.9rem;
+}
+
+.ec-search-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(31, 26, 60);
+  border-radius: 5px;
+  padding-right: 12px;
+  padding-left: 2px;
+  cursor: pointer;
+}
+.ec-search-box input {
+  border: none;
+  outline: none;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

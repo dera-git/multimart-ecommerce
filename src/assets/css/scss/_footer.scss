@@ -1,0 +1,15 @@
+footer{
+    background: $blue2;
+    padding: 60px 0 20px;
+    color: $grey;
+    margin-top: 90px;
+}
+.list-group{
+    li{
+        background-color: transparent;
+        color: $grey;
+        a{
+            color: $grey;
+        }
+    }
+}

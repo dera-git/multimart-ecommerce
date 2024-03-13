@@ -1,0 +1,70 @@
+.ec-banner{
+    background: $blue;
+    padding: 60px 0;
+    h2{
+        font-size: 36px;
+        margin-bottom: 35px;
+    }
+}
+.ec-btn{
+    border: none;
+    outline: none;
+    background: $blue2;
+    padding: 0;
+    color: $white;
+    a{
+        padding: 6px 15px;
+        color: $white;
+        display: inline-block;
+    }
+}
+.ec-btn-store{
+    background: $white;
+    a{
+        color: $blue2;
+    }
+}
+a{
+    text-decoration: none;
+}
+.ec-services-item{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    span{
+        flex: 0 0 auto;
+        width: 45px;
+        height: 45px;
+        background: $blue2;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+    }
+}
+.ec-mt-100{
+    margin-top: 100px;
+}
+.ec-product-item{
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    img{
+        transition: all .25s;
+    }
+    &:hover{
+        img{
+            transform: scale(.9);
+        }
+    }
+}
+.ec-product-name{
+    a{
+        color: $blue2;
+    }
+}
+.ec-counter{
+    background: $blue2;
+}

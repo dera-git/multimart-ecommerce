@@ -1,0 +1,2 @@
+Firebase : ilontsoa@gmail.com / 123456
+http://localhost:3000/dashboard/add-products

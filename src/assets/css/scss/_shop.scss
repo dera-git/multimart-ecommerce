@@ -1,0 +1,33 @@
+.ec-filter-widget{
+    select{
+        padding: 8px 20px;
+        border: 1px solid $blue2;
+        cursor: pointer;
+        background: $blue2;
+        color: $white;
+        border-radius: 5px;
+        &:focus{
+            outline: none;
+        }
+        option{
+            font-size: .9rem;
+        }
+    }
+}
+.ec-search-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid $blue2;
+    border-radius: 5px;
+    padding-right: 12px;
+    padding-left: 2px;
+    cursor: pointer;
+    input{
+        border: none;
+        outline: none;
+        padding: 8px 10px;
+        width: 100%;
+    }
+}
